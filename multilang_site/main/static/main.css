@@ -1,0 +1,65 @@
+body {
+    height: 100%;
+    background: linear-gradient(328deg, #0084ff 0%, #0084ff 11%, 
+    #0084ff 26%, #ffffff 61%);
+    
+}
+
+.body {
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.language {
+    display: grid;
+    grid-template-columns: repeat(2, 25%);
+    grid-template-rows: repeat(2, 25%);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.English {
+    height: 20px;
+    margin: 5px;
+}
+
+.English:hover {
+    height: 25px;
+}
+
+.fr {
+    grid-row-start: 2;
+    grid-column-start: 1;
+}
+
+.French {
+    height: 20px;
+    margin: 5px;
+}
+
+.French:hover {
+    height: 25px;
+}
+
+.mainblock {
+    display: grid;
+    grid-area: 1 / 2 / 6 / 5; 
+}
+
+.blogtitle {
+    text-align: center;
+}
+
+.message {
+    text-align: center;
+}
+
+.post {
+    border-style: solid;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}

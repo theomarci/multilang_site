@@ -1,0 +1,60 @@
+{% load i18n %}
+{% load static %}
+<DOCTYPE HTML>
+    <html>
+
+        <head>
+            <meta charset="UTF-8">
+            <title>Multi language blog</title>
+            <link rel="stylesheet" href="{% static 'main.css' %}">
+        </head>
+
+        <body>
+            {% get_current_language as LANGUAGE_CODE %}
+            {% get_available_languages as Languages %}
+            {% get_language_info_list for LANGUAGES as languages %}
+            
+            <div class="body">
+                <div class="language">
+                     <div class="en">
+                        <a href="/en">
+                            <img class="English" src="{% static 'uk.png' %}">
+                        </a>
+                    </div>
+                    <div class="fr">
+                        <a href="/fr">
+                            <img class="French" src="{% static 'round.png' %}">
+                        </a>
+                    </div>             
+                </div>                     
+
+                <div class="mainblock">
+                    <div class="blogtitle">
+                        <h1>{%translate  "TestBlog.com"  %}</h1>
+                    </div>
+    
+                    <div class="message">
+                        <h3>{%translate "Welcome to my blog !" %}</h3>
+                    </div>
+    
+                    <div>
+                        <ol>
+                            {% for item in article %}
+                                <div class="Post">
+                                    <div> {{ item.title }} </div>
+                                    <div> {{ item.content|linebreaks }} </div>
+                                    <div> {{ item.publication_date }} </div>
+                                </div>
+                            {% endfor %}
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h5>link to the creators of the icons</h5>
+                <a href="https://www.flaticon.com/free-icons/english" title="english icons">English icons created by iconset.co - Flaticon</a>
+                <a href="https://www.flaticon.com/free-icons/country" title="country icons">Country icons created by customicondesign_1 - Flaticon</a>
+            </div>
+        </body>
+
+    </html>
