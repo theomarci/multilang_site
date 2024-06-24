@@ -2,6 +2,7 @@ body {
     height: 100%;
     background: linear-gradient(328deg, #0084ff 0%, #0084ff 11%, 
     #0084ff 26%, #ffffff 61%);
+    background-attachment: fixed;
     
 }
 
@@ -62,4 +63,13 @@ body {
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
+}
+
+.title {
+    font-weight: bold;
+    text-decoration: underline solid;
+}
+
+.date {
+    font-style: italic;
 }
