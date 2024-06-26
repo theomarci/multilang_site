@@ -14,6 +14,7 @@ body {
     grid-row-gap: 0px;
 }
 
+/* --------------------------LANGUAGES------------------------------------- */
 .language {
     display: grid;
     grid-template-columns: repeat(2, 25%);
@@ -45,6 +46,7 @@ body {
     height: 25px;
 }
 
+/* ---------------------------MAIN BLOCK----------------------------------- */
 .mainblock {
     display: grid;
     grid-area: 1 / 2 / 6 / 5; 
@@ -52,6 +54,9 @@ body {
 
 .blogtitle {
     text-align: center;
+    font-family: Fonarto;
+    font-size: 50px;
+    color: #0e2b44;
 }
 
 .message {
@@ -72,4 +77,9 @@ body {
 
 .date {
     font-style: italic;
+}
+
+@font-face {
+    font-family: Fonarto;
+    src: url(Fonarto\ XT.ttf);
 }

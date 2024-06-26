@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-19 15:07+0200\n"
+"POT-Creation-Date: 2024-06-26 11:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,20 +18,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\main\templates\main.html:14
-msgid "Languages"
-msgstr "Langues"
-
-#: .\main\templates\main.html:25
-msgid "Select"
-msgstr "Sélection"
-
-#: .\main\templates\main.html:29
+#: .\main\templates\main.html:33
 msgid "TestBlog.com"
 msgstr "TestBlog.com"
 
-#: .\main\templates\main.html:31
+#: .\main\templates\main.html:37
 msgid "Welcome to my blog !"
 msgstr "Bienvenue sur mon site"
+
+#: .\main\templates\main.html:41
+msgid ""
+"This page display a list of post write in english. I don't transalate my "
+"posts, I need more time to do that. However, the most important, and my "
+"great success is to create two button to translate the static elements of te "
+"entire web page."
+msgstr "Cette page affiche une liste des posts écrite en anglais." 
+"Je n'ai pas traduit mes posts, j'ai besoin de plus de temps. Cependant, le plus important," 
+"et mon plus grand succès est d'avoir réussit à créer deux boutons les éléments statiques de la page entière."
+
+#: .\main\templates\main.html:58
+msgid "link to the creators of the icons"
+msgstr "Liens vers les créateurs des icones"
 
 
