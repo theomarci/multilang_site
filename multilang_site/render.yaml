@@ -1,0 +1,6 @@
+services:
+  - type: web
+  name: multilang_site
+  buildCommand: "./build.sh"
+  env: python
+  startCommand: "gunicorn multilang_site.wsgi:application"
