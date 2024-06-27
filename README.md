@@ -36,10 +36,42 @@ Then, I saw all my elements.  First step is finished.
 **Step 3 :** I started to do some research about LLM, chat bot and in particular, How can I implement a chat bot in a django's project. But at this moment, it's too late, and too complex to start now. So I do some finition about this project like the readme and depoyement.
 ## Installation
 
-Install my-project with npm
+**Step 1**
+copy the repo locally.
 
 ```bash
-  npm install my-project
-  cd my-project
+  git pull
+```
+
+**Step 2**
+Create a virtual environment
+
+```
+*go to the folder venv*
+cd venv
+
+*activate the virtual environement*
+Scripts\activate
+
+*return in the root's project*
+cd ..
+```
+
+**Step 3**
+Install Django
+
+```
+pip install Django
+```
+
+**Step 4**
+Install the dependency
+See the requirement.txt
+
+**Step 5**
+Run th site locally
+
+```
+py manage.py runserver
 ```
     
